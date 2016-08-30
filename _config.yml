@@ -1,0 +1,65 @@
+# Site settings
+title: ORL Cannes | Docteur Mayeul Lecoq
+description: "Site officiel du Docteur Mayeul Lecoq, Oto-Rhino-laryngologie et chirurgie de la face et du cou. Conventionné Secteur 2."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: svg/min/logo.svg
+
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Cabinet du Docteur Mayeul Lecoq
+    hero_description: Oto-Rhino-laryngologie et chirurgie de la face et du cou <br /> 
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: +33 4 93 39 13 30
+    fax: 09 55 77 18 80
+    email: 
+    address: 28 rue Hoche <br> "Le Forum" <br> 06400 Cannes - France
+
+# Opening hours
+monday_friday: 8:00 – 20:00
+saturday: 8:00 – 12:00
+sunday: fermé
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: 28 rue Hoche, 06400 Cannes, France
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: 
+twitter: 
+instagram: 
+youtube: 
+skype: 
+feed: 
+
+# Footer
+copyright: © 2016 Docteur Mayeul Lecoq - Tout droit réservé
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
