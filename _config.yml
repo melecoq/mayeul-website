@@ -1,7 +1,8 @@
 # Site settings
 title: ORL Cannes | Docteur Mayeul Lecoq
 description: "Site officiel du Docteur Mayeul Lecoq, Oto-Rhino-laryngologie et chirurgie de la face et du cou. Conventionné Secteur 2."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/mayeul" # the subpath of your site, e.g. /blog
+
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
 
