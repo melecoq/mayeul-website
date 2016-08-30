@@ -1,23 +1,24 @@
 - icon: icon-user-md
   title: Oreille
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: Obtenez des informations sur certaines pathologies prises en charge liées aux oreilles.
+  permalink: /pathologie-oreille/
 
 - icon: icon-diamond
   title: Nez-Sinus
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: Obtenez des informations sur certaines pathologies prises en charge liées aux fosses nasales ou aux sinus.
 
 - icon: icon-flask
   title: Glande thyroide
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  description: Obtenez des informations sur certaines pathologies prises en charge liées à la glande thyroïde.
 
 - icon: icon-globe
   title: Glandes salivaires
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: Obtenez des informations sur certaines pathologies prises en charge liées aux glandes salivaires.
 
 - icon: icon-ambulance
   title: Pathologies tumorales
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: Obtenez des informations sur certaines pathologies tumorales prises en charge.
 
 - icon: icon-bed
   title: Autres
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: Obtenez des informations sur d'autres pathologies prises en charge.

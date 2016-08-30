@@ -86,41 +86,42 @@ layout: default
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
-
+                <!-- <h3>Welcome to DentistSmile</h3> -->
+                <h4>Spécialité : Oto-Rhino-laryngologie et chirurgie de la face et du cou</h4>
+                
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-institution"><use xlink:href="#icon-institution"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>D.I.U  Chirurgie <strong>esthétique</strong> et <strong>réparatrice</strong> du visage.</p>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-hospital-o"><use xlink:href="#icon-hospital-o"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Ancien <strong>Chef de clinique</strong> à la faculté de Nice.</p>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                            <svg class="icon icon-hospital-o"><use xlink:href="#icon-hospital-o"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Ancien <strong>interne</strong> des hôpitaux de Nice</p>
                     </div>
                 </div>
+                
             </div>
             <div class="col-sm-6">
                 <img src="img/about.jpg" alt="...">
@@ -134,16 +135,9 @@ layout: default
     <h2 class="section-title">Le cabinet</h2> 
     <div id="team-carousel">
     {% for member in site.data.team %}
-        <div class="expandable-box">
+        <div>
             <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-            </div>
-            <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" >
             </div>
         </div>
     {% endfor %}
@@ -157,23 +151,28 @@ layout: default
     <div class="container-fluid">
         <h2 class="section-title">Les pathologies</h2>
 
+        
         <div class="row">
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
+                    <a href="{{ treatment.permalink }}">
                     <div class="icon-box">
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
                     </div>
+                    </a>
                 </div>
+                
             {% endfor %}
         </div>
+    
     </div>
 </div>
 <!-- End Treatments -->
 
 <!-- Start Treatments -->
-<div id="chirurgie" class="treatments">
+<div id="chirurgie" class="chirurgie">
     <div class="container-fluid">
         <h2 class="section-title">La chirurgie</h2>
 
