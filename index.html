@@ -121,6 +121,7 @@ layout: default
                         <p>Ancien <strong>interne</strong> des hôpitaux de Nice</p>
                     </div>
                 </div>
+                
             </div>
             <div class="col-sm-6">
                 <img src="img/about.jpg" alt="...">
@@ -154,24 +155,22 @@ layout: default
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
                     <a href="{{ treatment.permalink | prepend: site.github.url }}">
-
                     <div class="icon-box">
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
                     </div>
-
                     </a>
                 </div>
 
             {% endfor %}
         </div>
+    
     </div>
 </div>
 <!-- End Treatments -->
 
 <!-- Start Treatments -->
-
 <div id="chirurgie" class="chirurgie">
     <div class="container-fluid">
         <h2 class="section-title">La chirurgie</h2>
