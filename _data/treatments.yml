@@ -1,24 +1,29 @@
 - icon: icon-user-md
   title: Oreille
-  description: Obtenez des informations sur certaines pathologies prises en charge liées aux oreilles.
+  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées aux oreilles.
   permalink: /pathologie-oreille/
 
 - icon: icon-diamond
   title: Nez-Sinus
-  description: Obtenez des informations sur certaines pathologies prises en charge liées aux fosses nasales ou aux sinus.
+  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq  liées aux fosses nasales ou aux sinus.
+  permalink: /pathologie-nez-sinus/
 
 - icon: icon-flask
   title: Glande thyroide
-  description: Obtenez des informations sur certaines pathologies prises en charge liées à la glande thyroïde.
+  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées à la glande thyroïde.
+  permalink: /pathologie-thyroide/
 
 - icon: icon-globe
   title: Glandes salivaires
-  description: Obtenez des informations sur certaines pathologies prises en charge liées aux glandes salivaires.
+  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées aux glandes salivaires.
+  permalink: /pathologie-glandes-salivaires/
 
 - icon: icon-ambulance
   title: Pathologies tumorales
-  description: Obtenez des informations sur certaines pathologies tumorales prises en charge.
+  description: Obtenez des informations sur certaines pathologies tumorales prises en charge par le Dr Lecoq.
+  permalink: /pathologie-tumorales/
 
 - icon: icon-bed
   title: Autres
-  description: Obtenez des informations sur d'autres pathologies prises en charge.
+  description: Obtenez des informations sur d'autres pathologies prises en charge par le Dr Lecoq.
+  permalink: /pathologie-autres/

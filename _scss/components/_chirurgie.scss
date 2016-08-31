@@ -2,8 +2,10 @@
 -------------------------------------------------*/
 .chirurgie {
     @extend %space;
-    color: $white;
     background: lighten($colorPrimary, 2%);
+    h2{
+        color: $white;
+    }
     .row {
         @include breakpoint(small) {
             display: flex;
@@ -17,8 +19,11 @@
     }
     .icon {
         font-size: 1.5rem;
-        color: $colorPrimary;
     }
 
-    
+    h4{
+        color:$colorPrimary;
+    }
+
+
 }

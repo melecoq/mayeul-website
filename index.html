@@ -154,13 +154,13 @@ layout: default
         <div class="row">
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
-                    <a href="{{ treatment.permalink | prepend: site.github.url }}">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                        <a href="{{ treatment.permalink | prepend: site.github.url }}">
+                            <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                            <h4>{{ treatment.title }}</h4>
+                            <p>{{ treatment.description }}</p>
+                        </a>
                     </div>
-                    </a>
                 </div>
 
             {% endfor %}
@@ -176,12 +176,12 @@ layout: default
         <h2 class="section-title">La chirurgie</h2>
 
         <div class="row">
-            {% for treatment in site.data.treatments %}
+            {% for chirurgie in site.data.chirurgies %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                        <svg class="icon {{ chirurgie.icon }}"><use xlink:href="#{{ chirurgie.icon }}"></use></svg>
+                        <h4>{{ chirurgie.title }}</h4>
+                        <p>{{ chirurgie.description }}</p>
                     </div>
                 </div>
             {% endfor %}

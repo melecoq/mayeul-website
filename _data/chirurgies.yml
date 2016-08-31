@@ -1,0 +1,24 @@
+- icon: icon-user-md
+  title: Chirurgie de l'Oreille
+  description: Obtenez des informations sur les interventions de l'Oreille réalisées par le Dr Lecoq.
+  permalink: /pathologie-oreille/
+
+- icon: icon-diamond
+  title: Chirurgie de Nez et des Sinus
+  description: Obtenez des informations sur les interventions du nez et des sinus réalisées par le Dr Lecoq.
+
+- icon: icon-flask
+  title: Chirugie de la Thyroïde
+  description: Obtenez des informations sur les interventions de la Thyroïde réalisées par le Dr Lecoq.
+
+- icon: icon-globe
+  title: Chirurgie des Glandes salivaires
+  description: Obtenez des informations sur les interventions des glandes salivaires réalisées par le Dr Lecoq.
+
+- icon: icon-ambulance
+  title: Chirurgie des Tumeurs
+  description: Obtenez des informations sur les interventions sur les tumeurs réalisées par le Dr Lecoq.
+
+- icon: icon-bed
+  title: Chirurgie Esthétique
+  description: Obtenez des informations sur la chirurgie esthétique réalisées par le Dr Lecoq.
