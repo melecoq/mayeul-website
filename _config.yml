@@ -10,8 +10,6 @@ hero:
     hero_img: hero.jpg
     hero_title: Cabinet du Docteur Mayeul Lecoq
     hero_description: Oto-Rhino-laryngologie et chirurgie de la face et du cou <br /> 
-github:
-    url: ""
 
 # Contact form
 api_token: # Enter API token here
