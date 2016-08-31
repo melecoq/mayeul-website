@@ -35,7 +35,7 @@ testimonials:
 map:
     zoom: 17
     address: 28 rue Hoche, 06400 Cannes, France
-    address_details: svg/min/logo.svg
+    address_details: <strong>Le Cabinet du Docteur Lecoq</strong><br />28 rue Hoche<br />06400 Cannes<br />France
 
 # Social settings
 facebook: 
