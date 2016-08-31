@@ -1,6 +1,6 @@
-/* TREATMENTS
+/* CHIRURGIE
 -------------------------------------------------*/
-.treatments {
+.chirurgie {
     @extend %space;
     color: $white;
     background: lighten($colorPrimary, 2%);
@@ -19,4 +19,6 @@
         font-size: 1.5rem;
         color: $colorPrimary;
     }
+
+    
 }
