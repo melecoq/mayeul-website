@@ -3,3 +3,50 @@ layout: page
 title: Autres | Pathologie 
 permalink: /pathologie-autres/
 ---
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Les pathologies Tumorales</h2>
+
+        <div class="row">
+            {% for other in site.data.others %}
+	            <div class="col-sm-8 col-md-6">
+	            	
+	                    <div class="icon-box">
+	                    	<a href="#{{ other.permalink}}">
+	                        	<h4>{{ other.title }}</h4>
+	                        </a>
+	                    </div>
+	                
+	            </div>
+            {% endfor %}
+        </div>
+    
+    </div>
+</div>
+<!-- End Treatments -->
+
+<!-- Start About -->
+<div id="other1" class="team">
+	 <div class="container-fluid">
+        <h2 class="section-title">Test 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non sapien quis metus ultrices scelerisque vel eu lacus. Fusce at velit turpis. Aliquam a nulla accumsan, feugiat dui in, laoreet mauris. Duis laoreet non libero a auctor. Mauris neque erat, accumsan quis tellus non, porta lacinia urna. Nunc vitae molestie massa. Mauris eu facilisis nulla, posuere faucibus orci.</p>
+
+		<p>Pellentesque ornare est in ante vulputate fringilla. Vestibulum sit amet lorem risus. Duis at lorem euismod, placerat metus quis, tincidunt elit. Cras vel enim et tortor ornare congue. Etiam ac leo elementum, vehicula arcu id, ultrices ligula. Pellentesque ultrices vehicula sodales. Fusce interdum, purus sed maximus pellentesque, nunc purus rhoncus est, in tristique risus turpis vel metus. Praesent sodales massa et felis mollis sagittis. Ut quis venenatis nunc, sit amet rhoncus lacus. Donec gravida consequat neque sed ultrices.</p>
+
+		<p>Nam nisl ante, dictum quis finibus a, interdum vitae sapien. Etiam efficitur lectus sed volutpat tincidunt. Etiam metus nibh, lobortis non nunc vel, consequat porta mauris. Maecenas ullamcorper, quam sed ultricies elementum, felis ex malesuada purus, id mattis augue diam quis dolor. Praesent scelerisque cursus velit vel scelerisque. Sed urna lectus, congue non auctor nec, sodales finibus ipsum. Suspendisse ut tristique sapien. Nullam dictum eu metus id commodo. Proin mollis ultrices quam, eget egestas lectus dapibus vitae.</p>
+    </div>
+</div>
+<!-- End About -->
+<!-- Start Our team -->
+<div id="other2" class="about">
+	<div class="container-fluid">
+	    <h2 class="section-title">Test 2</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non sapien quis metus ultrices scelerisque vel eu lacus. Fusce at velit turpis. Aliquam a nulla accumsan, feugiat dui in, laoreet mauris. Duis laoreet non libero a auctor. Mauris neque erat, accumsan quis tellus non, porta lacinia urna. Nunc vitae molestie massa. Mauris eu facilisis nulla, posuere faucibus orci.</p>
+
+		<p>Pellentesque ornare est in ante vulputate fringilla. Vestibulum sit amet lorem risus. Duis at lorem euismod, placerat metus quis, tincidunt elit. Cras vel enim et tortor ornare congue. Etiam ac leo elementum, vehicula arcu id, ultrices ligula. Pellentesque ultrices vehicula sodales. Fusce interdum, purus sed maximus pellentesque, nunc purus rhoncus est, in tristique risus turpis vel metus. Praesent sodales massa et felis mollis sagittis. Ut quis venenatis nunc, sit amet rhoncus lacus. Donec gravida consequat neque sed ultrices.</p>
+
+		<p>Nam nisl ante, dictum quis finibus a, interdum vitae sapien. Etiam efficitur lectus sed volutpat tincidunt. Etiam metus nibh, lobortis non nunc vel, consequat porta mauris. Maecenas ullamcorper, quam sed ultricies elementum, felis ex malesuada purus, id mattis augue diam quis dolor. Praesent scelerisque cursus velit vel scelerisque. Sed urna lectus, congue non auctor nec, sodales finibus ipsum. Suspendisse ut tristique sapien. Nullam dictum eu metus id commodo. Proin mollis ultrices quam, eget egestas lectus dapibus vitae.</p>
+	</div>
+</div>
