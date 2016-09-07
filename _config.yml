@@ -8,7 +8,7 @@ logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
-    hero_img: hero.jpg
+    hero_img: header.jpg
     hero_title: Cabinet du Docteur Mayeul Lecoq
     hero_description: Oto-Rhino-laryngologie et chirurgie de la face et du cou <br /> 
 
@@ -19,7 +19,7 @@ api_token: # Enter API token here
 contact:
     phone: +33 4 93 39 13 30
     fax: +33 9 55 77 18 80
-    email: 
+    email: docteur.lecoq@gmail.com
     address: 28 rue Hoche <br> "Le Forum" <br> 06400 Cannes - France
 
 # Opening hours
