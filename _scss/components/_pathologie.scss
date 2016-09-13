@@ -1,0 +1,12 @@
+/* ABOUT
+-------------------------------------------------*/
+.pathologie {
+    @extend %space;
+    color: $orange;
+    .media {
+        margin-bottom: $space;
+    }
+    h2 {
+        color: $orange;
+    }
+}

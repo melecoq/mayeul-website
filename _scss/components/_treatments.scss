@@ -16,10 +16,17 @@
     }
     .icon {
         font-size: 1.5rem;
-        color: $colorPrimary;
+        color: $greyLight;
     }
     a:hover {
         text-decoration:none;
         color: $colorPrimary;
+    }
+    h2, h4{
+        color: $orange;
+    }
+
+    p{
+        color: $greyLight;
     }
 }

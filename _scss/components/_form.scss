@@ -16,9 +16,16 @@
     .btn {
         width: auto;
         border: 0;
+        background: $orange;
     }
     .form-field {
         margin-bottom: 10px;
+    }
+    .icon {
+        color: $orange;
+    }
+    h3 {
+        color: $orange;
     }
 }
 

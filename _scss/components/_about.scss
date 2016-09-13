@@ -2,7 +2,19 @@
 -------------------------------------------------*/
 .about {
     @extend %space;
+    color: $orange;
     .media {
         margin-bottom: $space;
     }
+
+    .boxed-icon {
+    	border: solid 2px $orange;
+	    .icon {
+	        color: $orange;
+	        font-size: 1.5rem;
+	    }
+	}
+	h2, h4{
+		color : $orange;
+	}
 }

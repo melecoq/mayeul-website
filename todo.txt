@@ -1,0 +1,8 @@
+- Création des pages de la partie "Chirurgie"
+- Changer les logos sur la page d'accueil pour les parties pathologies/chirurgies
+- Changer le logo au niveau de l'onglet (en haut)
+- Ajouter une petite flèche en bas à gauche pour permettre de remonter plus facilement en haut de la page.
+- Régler petit soucis niveau menu sur les pages "Pathologie". 
+- mise en place du système de basculement pour l'internationalisation (FR-ENG)
+- Ajout orange sur les pages crée
+- Création d'une page erreur

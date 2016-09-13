@@ -1,17 +1,19 @@
-- title: Otite Externe
-  permalink: otite-ext
-
-- title: Otite Moyenne
-  permalink: otite-moy
-
 - title: Surdité
   permalink: surdite
-
-- title: Vertiges
-  permalink: vertiges
 
 - title: Acouphènes
   permalink: acouphenes
 
+- title: Otite Externe
+  permalink: otite-ext
+
+- title: Otite Moyenne (OM)
+  permalink: otite-moy
+
 - title: Oreilles décollées 
   permalink: oreille-dec
+
+- title: Vertiges
+  permalink: vertiges
+
+
