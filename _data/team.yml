@@ -4,8 +4,14 @@
 - name: Cabinet 2 
   image: cabinet2.jpg
 
-- name: Cabinet 3
-  image: cabinet3.jpg
-
 - name: Cabinet 4
   image: cabinet4.jpg
+
+- name: Cabinet 5
+  image: cabinet5.jpg
+
+- name: Cabinet 6
+  image: cabinet6.jpg
+
+- name: Cabinet 3
+  image: cabinet3.jpg

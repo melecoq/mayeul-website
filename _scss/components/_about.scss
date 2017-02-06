@@ -3,6 +3,7 @@
 .about {
     @extend %space;
     color: $orange;
+
     .media {
         margin-bottom: $space;
     }
@@ -17,4 +18,12 @@
 	h2, h4{
 		color : $orange;
 	}
+
+	.expandable-box-top {
+        padding: $space;
+        background: $couleurCabinet;
+    }
+    img{
+        height: $averageHeight;
+    }
 }

@@ -1,0 +1,37 @@
+/* HEADERS
+-------------------------------------------------*/
+.headers {
+    @extend %space;
+    background: $colorBg;
+    padding-left: $paddingHeaders;
+    padding-right: $paddingHeaders; 
+    .row {
+        @include breakpoint(small) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    [class^="col-"] {
+        @include breakpoint(small) {
+            display: flex; 
+        }
+        
+    }
+    .icon-box{
+        background: $couleurCabinet;
+    }
+    a:hover {
+        text-decoration:none;
+        color: $colorPrimary;
+    }
+    h2{
+        color: $colorPrimary;
+    }
+    h4{
+        color: $white;
+    }
+
+    p{
+        color: $greyLight;
+    }
+}

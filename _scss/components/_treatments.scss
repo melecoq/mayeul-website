@@ -2,7 +2,7 @@
 -------------------------------------------------*/
 .treatments {
     @extend %space;
-    background: $colorBg;
+    background: $colorPrimary;
     .row {
         @include breakpoint(small) {
             display: flex;
@@ -22,11 +22,15 @@
         text-decoration:none;
         color: $colorPrimary;
     }
-    h2, h4{
-        color: $orange;
+    h2{
+        color: $white;
+    }
+    h4{
+        color: $couleurCabinet;
     }
 
     p{
         color: $greyLight;
     }
+    
 }

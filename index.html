@@ -15,23 +15,44 @@ layout: default
 
     <div class="container-fluid">
 
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Nous contacter</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Nom" required>
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form ">
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-hospital-o"><use xlink:href="#icon-hospital-o"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p class="one-line">Ancien <strong>interne</strong> des hôpitaux de Nice</p>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Téléphone" required>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-hospital-o"><use xlink:href="#icon-hospital-o"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p class="two-line">Ancien <strong>Chef de clinique</strong> à la faculté de Nice.</p>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-institution"><use xlink:href="#icon-institution"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p class="two-line">D.I.U  Chirurgie <strong>esthétique</strong> et <strong>réparatrice</strong> du visage.</p>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <textarea name="comments" placeholder="Message" required></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Send">
-            </form>
+
+
+                
+                
+            </div>
         </div>
 
     </div>
@@ -80,58 +101,9 @@ layout: default
 <!-- End 3 columns -->
 
 <!-- Start About -->
-<div id="about" class="about">
-    <div class="container-fluid">
-        <h2 class="section-title">Docteur Mayeul Lecoq</h2>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <!-- <h3>Welcome to DentistSmile</h3> -->
-                <h4>Spécialité : Oto-Rhino-laryngologie et chirurgie de la face et du cou</h4>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-institution"><use xlink:href="#icon-institution"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>D.I.U  Chirurgie <strong>esthétique</strong> et <strong>réparatrice</strong> du visage.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-hospital-o"><use xlink:href="#icon-hospital-o"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Ancien <strong>Chef de clinique</strong> à la faculté de Nice.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-hospital-o"><use xlink:href="#icon-hospital-o"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Ancien <strong>interne</strong> des hôpitaux de Nice</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
-            </div>
-        </div>
-    </div>
-</div>
 <!-- End About -->
 <!-- Start Our team -->
-<div id="team" class="team">
+<div id="team" class="about">
     <h2 class="section-title">Le cabinet</h2>
     <div id="team-carousel">
     {% for member in site.data.team %}

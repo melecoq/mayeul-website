@@ -25,6 +25,7 @@
 - icon: icon-user
   title: Lésions cutanées cancéreuses de la face et du cou
   description: Obtenez des informations sur certaines pathologies cancéreuses prises en charge par le Dr Lecoq.
-  permalink: /pathologie-tumorales/
+  # permalink: /pathologie-tumorales/
+  permalink: \#
   id: 2
 

@@ -35,11 +35,12 @@ $colorHeading: $grey;
 $colorBase: $greyLight;
 $colorBg: $alabaster;
 $colorBorder: $alto;
+$couleurCabinet: $orange;
 
 /* Spacing
 -------------------------------*/
-$space: 20px;
-$spaceDouble: 40px;
+$space: 15px;
+$spaceDouble: 30px;
 
 /* Breakpoints
 -------------------------------*/
@@ -95,3 +96,7 @@ $tooltip-max-width: 260px;
 $tooltip-color: #fff;
 $tooltip-bg: darken($colorPrimary, 2%);
 
+$margeForm: 2%;
+$paddingHeaders: 10%;
+$paddingText:15%;
+$averageHeight:250px;

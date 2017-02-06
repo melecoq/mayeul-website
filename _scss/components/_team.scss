@@ -1,12 +1,14 @@
 /* TEAM
 -------------------------------------------------*/
 .team {
+    padding-left: $paddingText;
+    padding-right: $paddingText; 
     @extend %clearfix;
     @extend %space;
     overflow: hidden;
     color: $white;
     background: lighten($colorPrimary, 2%);
-    h2, h4 {
+    h2, h3, h4 {
         color: $white;
     }
     h4 {
@@ -38,5 +40,8 @@
     }
     .owl-carousel .owl-wrapper-outer {
         overflow: visible;
+    }
+    p {
+        text-align: justify;
     }
 }
