@@ -153,39 +153,31 @@ layout: default
 
         <div class="row">
             {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <a href="{{ treatment.permalink | prepend: site.github.url }}">
-                            <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                            <h4>{{ treatment.title }}</h4>
-                            <p>{{ treatment.description }}</p>
-                        </a>
+                {% if treatment.id ==  1%}
+                    <div class="col-sm-6 col-md-4">
+                        <div class="icon-box">
+                            <a href="{{ treatment.permalink | prepend: site.github.url }}">
+                                <!-- <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg> -->
+                                <h4>{{ treatment.title }}</h4>
+                                <p>{{ treatment.description }}</p>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                {%else%}
+                    <div class="col-sm-8 col-md-6">
+                        <div class="icon-box">
+                            <a href="{{ treatment.permalink | prepend: site.github.url }}">
+                                <!-- <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg> -->
+                                <h4>{{ treatment.title }}</h4>
+                                <p>{{ treatment.description }}</p>
+                            </a>
+                        </div>
+                    </div>
+                {%endif%}
 
             {% endfor %}
         </div>
     
-    </div>
-</div>
-<!-- End Treatments -->
-
-<!-- Start Treatments -->
-<div id="chirurgie" class="chirurgie">
-    <div class="container-fluid">
-        <h2 class="section-title">La chirurgie</h2>
-
-        <div class="row">
-            {% for chirurgie in site.data.chirurgies %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <svg class="icon {{ chirurgie.icon }}"><use xlink:href="#{{ chirurgie.icon }}"></use></svg>
-                        <h4>{{ chirurgie.title }}</h4>
-                        <p>{{ chirurgie.description }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
     </div>
 </div>
 <!-- End Treatments -->

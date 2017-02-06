@@ -1,14 +1,8 @@
-- title: Description
+- title: Nodules et risque de cancer
   permalink: description
 
-- title: Nodules Thyroïdiens
+- title: Pathologie hyperthyroïdienne (maladie de basedow ou nodule chaud)
   permalink: nodule
 
-- title: Goitre Thyroïdien
-  permalink: goitre
-
-- title: Dysfonctionnement Thyroïdiens
-  permalink: dysfonctionnement
-
-- title: Maladie de Basedow
-  permalink: basedow
+- title: Hyperparathyroïdie (HPTP)
+  permalink: tyroide

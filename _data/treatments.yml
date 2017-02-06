@@ -1,29 +1,30 @@
-- icon: icon-user-md
-  title: Oreille
+- icon: icon-heartbeat
+  title: Pathologies de l’oreille
   description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées aux oreilles.
   permalink: /pathologie-oreille/
+  id: 1
 
-- icon: icon-diamond
-  title: Nez-Sinus
-  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq  liées aux fosses nasales ou aux sinus.
+- icon: icon-map-marker
+  title: Pathologies du nez et des sinus
+  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq  liées aux nez ou aux sinus.
   permalink: /pathologie-nez-sinus/
+  id: 1
 
-- icon: icon-flask
-  title: Glande thyroide
-  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées à la glande thyroïde.
+- icon: icon-medkit
+  title: Pathologies Thyroïdiennes 
+  description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées aux glandes Thyroïdiennes.
   permalink: /pathologie-thyroide/
+  id: 1
 
-- icon: icon-globe
-  title: Glandes salivaires
+- icon: icon-leaf
+  title: Pathologies Salivaires
   description: Obtenez des informations sur certaines pathologies prises en charge par le Dr Lecoq liées aux glandes salivaires.
   permalink: /pathologie-glandes-salivaires/
+  id: 2
 
-- icon: icon-ambulance
-  title: Pathologies tumorales
-  description: Obtenez des informations sur certaines pathologies tumorales prises en charge par le Dr Lecoq.
+- icon: icon-user
+  title: Lésions cutanées cancéreuses de la face et du cou
+  description: Obtenez des informations sur certaines pathologies cancéreuses prises en charge par le Dr Lecoq.
   permalink: /pathologie-tumorales/
+  id: 2
 
-- icon: icon-bed
-  title: Autres
-  description: Obtenez des informations sur d'autres pathologies prises en charge par le Dr Lecoq.
-  permalink: /pathologie-autres/
