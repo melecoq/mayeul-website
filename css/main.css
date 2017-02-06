@@ -6046,9 +6046,11 @@ strong {
       width: 50%; } }
   .hero-content h1 {
     margin: 0 0 5px;
-    color: #FF6600; }
+    color: #FF6600;
+    text-align: right; }
   .hero-content p {
-    font-size: 1.125rem; }
+    font-size: 1.125rem;
+    text-align: right; }
 
 /* FORM
 -------------------------------------------------*/
@@ -6057,7 +6059,7 @@ strong {
   background: #f7f7f7; }
   @media (min-width: 768px) {
     .form {
-      padding: 60px 15px; } }
+      padding: 10% 15px 20% 15px; } }
   .form textarea {
     height: 100px; }
   .form .btn {

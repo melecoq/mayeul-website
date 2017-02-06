@@ -4,7 +4,7 @@
     padding: $spaceDouble $space;
     background: $colorBg;
     @include breakpoint(small) {
-        padding: $spaceDouble*2 $space;
+        padding: 10% $space 20% $space;
     }
     input,
     textarea {
