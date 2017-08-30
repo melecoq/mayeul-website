@@ -1,6 +1,3 @@
-- name: Cabinet 1
-  image: cabinet1.jpg
-
 - name: Cabinet 2 
   image: cabinet2.jpg
 

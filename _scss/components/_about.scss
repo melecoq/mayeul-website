@@ -3,6 +3,8 @@
 .about {
     @extend %space;
     color: $orange;
+    max-width: 600px;
+    margin: 0 auto;
 
     .media {
         margin-bottom: $space;

@@ -2,7 +2,7 @@
 -------------------------------------------------*/
 .treatments {
     @extend %space;
-    background: $colorPrimary;
+    background: $grey2;
     .row {
         @include breakpoint(small) {
             display: flex;
@@ -23,10 +23,10 @@
         color: $colorPrimary;
     }
     h2{
-        color: $white;
+        color: $colorPrimary;
     }
     h4{
-        color: $couleurCabinet;
+        color: $colorPrimary;
     }
 
     p{
